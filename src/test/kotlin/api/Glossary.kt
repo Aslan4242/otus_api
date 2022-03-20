@@ -1,9 +1,6 @@
 package api
 
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties
-
-@JsonIgnoreProperties(ignoreUnknown = true)
-class Article {
+class Glossary {
     lateinit var date: String
     lateinit var url: String
     lateinit var content: String
